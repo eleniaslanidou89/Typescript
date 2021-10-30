@@ -8,7 +8,7 @@ function InputField({ todo, setTodo }: Props) {
   return (
     <form className="input">
       <input type="input" placeholder="enter a task" />
-      <button className="input-submit" type="button">button</button>
+      <button className="input-submit" type="button">Go</button>
     </form>
   );
 }
